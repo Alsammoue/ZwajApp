@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   constructor(private http:HttpClient) { }
 
   ngOnInit() {
-   this.getValues();
+ 
 
   }
 
@@ -27,11 +27,6 @@ export class HomeComponent implements OnInit {
   
   }
 
-  getValues(){
-
-    this.http.get ('https://localhost:7238/weatherforecast').subscribe(response=>{this.values=response;},error=>{console.log(error);})
- 
-   }
 
    cancelRegister(mode:boolean){
     this.registerMode = mode;
