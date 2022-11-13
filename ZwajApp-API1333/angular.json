@@ -102,5 +102,7 @@
       }
     }
   },
-  "defaultProject": "ZwajApp-API1333"
+  "cli": {
+    "analytics": false
+  }
 }
