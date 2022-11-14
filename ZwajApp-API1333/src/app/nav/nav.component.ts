@@ -24,7 +24,7 @@ console.log()
 this.authService.login(this.model).subscribe(
 
 next=> {console.log('تم الدخول')},
-error=>{console.log('لم تتم العملية')}
+error=>{console.log(error)}
  
      )
   }
